@@ -11,7 +11,7 @@ public class Mythread extends Thread {
 		try
 		{
 			Thread.sleep(1000);
-			doDBPrrocessing();
+			doDBProcessing();
 		}
 		catch(InterruptedException e)
 		{
@@ -20,15 +20,15 @@ public class Mythread extends Thread {
 		System.out.println("mythread end"+Thread.currentThread().getName());
 	}
 		
-	private void doDBPrrocessing() throws InterruptedException{
+	private void doDBProcessing() throws InterruptedException{
 		Thread.sleep(5000);
 	}
 
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Mythread t1=new Mythread();
-	t1.run();
+		Mythread t1=new Mythread("Absee");
+	t1.start();
 	}
 	}
 
