@@ -1,0 +1,20 @@
+package Testing;
+
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
+
+public class Runner1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Result r=JUnitCore.runClasses(TestCase1.class,Testcase2.class);
+	
+	System.out.println(r.getRunCount());
+	for(Failure f:r.getFailures())	
+	{
+		System.out.println(f);
+		}
+	}
+
+}
