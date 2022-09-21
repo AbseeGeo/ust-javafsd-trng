@@ -39,7 +39,7 @@ select first_name,last_name from worker where salary>=50000 and salary<=100000;
 
 select  count(worker_id),department from worker group by department order by count(department)DESC;
 
-/* ----------17------------*/
+/* ----------question 17------------*/
 
 select * from worker where first_name LIKE '%a';
 
@@ -47,7 +47,7 @@ select * from worker where first_name LIKE '%a';
 
 select * from worker where salary between 100000 and 500000;
 
-/*--------------question ---------*/
+/*--------------question 21---------*/
 
 select count(worker_id),department from worker group by department having department="admin";
 
