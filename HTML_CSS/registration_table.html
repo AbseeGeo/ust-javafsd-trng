@@ -2,18 +2,18 @@
 <html>
 <head><style>
 .button{
-background-color:blue;
+background-color:GREEN;
 border:none;
 color:white;
 text-align:center;
-padding:16px 32px;
+padding:8px 50px;
 text-decoration:none;
 display:inline-block;
 font-size:40px;
 margin:4px 0px;
 cursor:pointer;
 width:100%;
-opacity:0.9;
+
 
 }</style>
 <meta charset="UTF-8">
@@ -21,28 +21,29 @@ opacity:0.9;
 </head><h1>Registration</h1>
 <body style="background-image:url('design.jpg');">
 <table><form>
-<tr><td>Full Name</td><td>Position you are applying for</td></tr><tr></tr><br>
+<tr><td>Full Name</td><td>Position you are applying for</td></tr><tr></tr><tr></tr><br>
 <tr><td><input type="text" name="name" placeholder="please enter your name" ></td>
 
-<td><select><option  value="selected">--please select--</option><option value="engineer">ENGINEER</option><option value="tester">TESTER</option><option value="developer">DEVELOPER</option></select></td></tr>
-<tr></tr><tr><td>Email</td><td>Phone Number</td><td></td><tr><td><input type="email" name="email" placeholder="email"></td>
-<td><input type="tel" placeholder="Phone Number"></td></tr><tr></tr>
+<td><select><option  selected="true " disabled="disabled" value="">--please select--</option><option value="engineer">ENGINEER</option><option value="tester">TESTER</option><option value="developer">DEVELOPER</option></select></td></tr><tr></tr><tr></tr>
+
+<tr></tr><tr><td>Email</td><td>Phone Number</td></tr><tr><td><input type="email" name="email" placeholder="email"></td>
+<td><input type="tel" placeholder="Phone Number"></td></tr><tr></tr><tr></tr>
 
 
-<tr><td>Country</td><td>City</td></tr>
+<tr><td>Country</td><td>City</td></tr><tr></tr><tr></tr>
 <tr><td><input type="text" name="country" placeholder="please enter your country"></td>
-<td><input type="text" name="city" placeholder="please enter your city"></td></tr>
+<td><input type="text" name="city" placeholder="please enter your city"></td></tr><tr></tr><tr></tr>
 
-<tr><td>Password</td><td>Confirm Password</td></tr>
+<tr><td>Password</td><td>Confirm Password</td></tr><tr></tr><tr></tr>
 <tr><td><input type="password" name="pswd" placeholder="please enter your password"></td>
-<td><input type="password" name="cpswd" placeholder="please enter your confirm password"></td></tr>
-<tr><td>Gender</td></tr>
+<td><input type="password" name="cpswd" placeholder="please enter your confirm password"></td></tr><tr></tr><tr></tr>
+<tr><td>Gender</td></tr><tr></tr><tr></tr>
 <tr><td><input type="radio" name="radio1" value="male">Male
 <input type="radio" name="radio1" value="female">Female
 <input type="radio" name="radio1" value="other">Other
 <input type="radio" name="radio1" value="prefer not to say">Prefer not to say
  </td>
- </tr>
+ </tr><tr></tr><tr></tr>
  <tr><td><center></center><button class="button">Next Step</button></td></center>
 </form>
 </table>
