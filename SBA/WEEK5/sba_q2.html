@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function details(){
+var fname1=document.getElementById("n1").value;
+var lname1=document.getElementById("n2").value;
+var city1=document.getElementById("n3").value;
+document.write(fname1);
+document.write(lname1);
+document.write(city1);
+}
+</script>
+</head>
+<body>
+<form>
+First Name:<br>
+<input type="text" id="n1" name="fname"/><br>
+Last Name:<br>
+<input type="text" id="n2" name="lname"/><br>
+City:<br>
+<input type="text" id="n3" name="city"/><br><br>
+<input type="button" value="CLICK HERE" onclick="details()">
+
+</form>
+</body>
+</html>

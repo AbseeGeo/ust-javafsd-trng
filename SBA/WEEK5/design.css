@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+.para2
+{
+color:blue;
+	
+}
+.para1
+{
+color:green;
+	
+}
+h1{
+	font-style:italic;
+	size:30px;
+	color:red;
+}
+body{
+	background-color:lavender;
+	text-align:center;
+}
