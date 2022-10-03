@@ -13,11 +13,6 @@ class Fruit
 var fru=new Fruit("apple");
 console.log("favourate fruit is: "+fru.color);
 fru.disp();
-
-
-
-
-
 var  price:number[]=new Array(4)
 for(var i=0;i<price.length;i++)
 {
