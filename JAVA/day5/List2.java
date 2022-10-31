@@ -15,7 +15,7 @@ class List2 {
 		ArrayList<String> lang=new ArrayList<>();
 		lang.add("c");
 		lang.add("c++");
-		lang.add("hiiiii");
+		lang.add("qwfv");
 		System.out.println("ArrayList:"+lang);
 		lang.set(2, "javascript");
 		System.out.println("modified arraylist"+lang);
