@@ -1,0 +1,23 @@
+input {
+file {
+type => "java"
+path => "C:\Users\VENKATESAN\IdeaProjects\CTSSB\cts.log"    # Make sure you provide the absolute path of the file here
+codec => multiline {
+pattern => "^%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME}.*"
+negate => "true"
+what => "previous"
+    }
+  }
+}
+
+
+
+
+output {
+stdout {
+    codec => rubydebug
+  }
+
+elasticsearch {
+hosts => ["localhost:9200"]
+}
