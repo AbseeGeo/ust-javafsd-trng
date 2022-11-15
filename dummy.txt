@@ -26,3 +26,7 @@ hosts => ["localhost:9200"]
 <div class="progress mb-4" style="height:30px;">
   <div class="progress-bar bg-success text-left pl-2" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">C</div>
 </div> 
+
+
+
+String regexPassword =  "^(?=(?:.*\\d){3,})(?=\\S+$)(?=.*[@#$%^&+=])(?=(?:.*[A-Za-z]){3,})(?=.*[A-Z]).{8,}$";
