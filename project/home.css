@@ -3,7 +3,7 @@
     background-image: url("/assets/home-img.jpeg");
 
     background-repeat: no-repeat;
-
+ 
     background-size: cover;
 
     background-blend-mode: soft-light;
@@ -11,7 +11,8 @@
 }
 .rightNav {
  width: 50;
- text-align: right;
+ text-align: center;
+ text: size 20px;;
 }
 
 
@@ -21,6 +22,7 @@
  justify-content: center;
  position: sticky;
  top: 0;
+
  cursor: pointer;
 }
 .background {
@@ -36,14 +38,19 @@
  justify-content: center;
 }
 .nav-list {
- width: 70%;
+ width: 100%;
  display: flex;
+ 
 }
-
+.title
+{
+    text-align: left;
+}
 
 .nav-list li {
  list-style: none;
  padding: 2px 6px;
+ 
 }
 .nav-list li a {
  text-decoration: none;
@@ -52,4 +59,4 @@
 .nav-list li a:hover {
  color: rgba(17, 13, 13, 0.938);
 }
-
+ 
